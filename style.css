@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+
+.head-left-body {
+    color: var(--Dark-02, #4A4A4A);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: #777;
+    text-align: center;
+    font-family: Poppins;
+    
+}
+
+.gap {
+    margin-left: 35px;
+}
+
+
+.head-right h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    padding: 13px 33px;
+    color: #289BDE;
+    text-align: center;
+    font-family: Poppins;
+
+}
+
+
+
+
+
+.bcg-img {
+    background-image: url(./image/Rectangle\ 2.png);
+
+    border-radius: 5px;
+    width: 100%;
+    height: 700px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 43px;
+}
+
+
+.text-Learning {
+    width: 550px;
+
+}
+
+.text-Learning h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+
+}
+
+.text-Learning p {
+    color: #F4F4F4;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+
+.btn button {
+    color: #FFF;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 13px 33px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #289BDE;
+    background-color: #289BDE;
+    transition: 1s all ease;
+
+}
+
+.btn button:hover {
+    background-color: rgb(255, 71, 175);
+    color: #1D1D1D;
+    transition: .1s all ease;
+}
+
+
+
+
+
+.text-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.text-card h1 {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    width: 549px;
+}
+
+.text-card p {
+    color: #777;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+}
+
+
+
+.Design {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+
+
+
+.Design-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    border: 1px solid#E8E8E8;
+    background: #FFF;
+    margin-top: 50px;
+}
+
+
+
+
+
+.left-card img {
+    width: 180px;
+    height: 150px;
+}
+
+
+
+
+
+.right-card {
+    width: 300px;
+}
+
+.right-card h1 {
+    color: #4A4A4A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right-card p {
+    color: #777;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ui a {
+    color: #289BDE;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) and (min-width:300px) {
+
+.container {
+        width: 100%;
+    }
+
+    .head-left-body {
+        color: var(--Dark-02, #4A4A4A);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list a {
+        text-decoration: none;
+        color: #777;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 15px 0;
+    }
+
+    .left {
+        margin-top: 50px;
+    }
+
+
+
+
+
+    .head-right {
+        margin-top: 40px;
+    }
+
+    .head-right h1 {
+        border-radius: 5px;
+        border: 1px solid #289BDE;
+        display: inline;
+        padding: 13px 33px;
+        color: #289BDE;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+   
+    .bcg-img {
+    
+            background-image: url(./image/Rectangle\ 2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+            border-radius: 5px;
+            width: 100%;
+            height: 262px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 43px;
+        }
+
+        .text-Learning {
+            width: 280px;
+
+        }
+
+        .text-Learning h1 {
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .text-Learning p {
+            color: #F4F4F4;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+
+        .btn button {
+            color: #FFF;
+            margin-top: 30px;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 20px;
+            padding: 13px 33px;
+            font-weight: 600;
+            border-radius: 5px;
+            border: 1px solid #289BDE;
+            background-color: #289BDE;
+            transition: 5s all ease;
+
+        }
+
+        .btn button:hover {
+            background-color: tomato;
+            color: #1D1D1D;
+            transition: .1s all ease;
+        }
+
+        
+
+
+        .Design-card {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 130px;
+        }
+
+        .Design-card h1 {
+            color: #1D1D1D;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .Design-card p {
+            color: #777;
+            width: 290px;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+}
